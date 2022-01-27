@@ -5,8 +5,138 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+<header class="main-page-header">
+  <nav class="navigation">
+    <a class="navigation-logo" href="index.html">
+      <img class="page-header-logo" alt="Логотип Седоны" src="">
+    </a>
+    <ul class="navigation-list">
+      <li class="navigation-list-item">
+        <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+      </li>
+      <li class="navigation-list-item">
+        <a class="navigation-link" href="#">О Седоне</a>
+      </li>
+      <li class="navigation-list-item">
+        <a class="navigation-link" href="catalog.html">Гостиницы</a>
+      </li>
+    </ul>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <ul class="navigation-list navigation-user">
+      <li class="navigation-list-item">
+        <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+      </li>
+      <li class="navigation-list-item">
+        <a class="navigation-link" href="#"><span class="visually-hidden">В избранное</span></a>
+        <span class="favourite-count">12</span>
+      </li>
+      <li class="navigation-list-item navigation-list-item-enter">
+        <a class="navigation-link" href="#">Хочу сюда!</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+    
+<main class="main-index">
+  <img class="main-logo" src="" alt="Логотип Седоны с приветствием">
+  <h1 class="main-header">Седона — небольшой городок в Аризоне, заслуживающий большего! </h1>
+  <h2 class="advantages-title">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</h2>
+  <section class="advantage-one"> 
+   <h3 class="advantage-one-header">НАСТОЯЩИЙ ГОРОДОК</h3>
+   <p class="advantage-one-text">— №1 —</p>
+   <p class="advantage-one-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+   <img class="advantage-one-pic" src="" alt="Фото города">
+  </section>
+  <section class="advantage-one-extra">
+    <ul class="advantage-one-extra-list">
+     <li>
+       <img class="advantage-one-extra-home" src="" alt="логотип в виде домика">
+       <h3 class="advantage-one-extra-header">ЖИЛЬЁ</h3>
+       <p class="advantage-one-extra-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+     </li>
+     <li>
+       <img class="advantage-one-extra-burger" src="" alt="логотип в виде бургера">
+       <h3 class="advantage-one-extra-header">ЕДА</h3>
+       <p class="advantage-one-extra-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+     </li>
+     <li>
+       <img class="advantage-one-extra-gift" src="" alt="логотип в виде подарка">
+       <h3 class="advantage-one-extra-header">СУВЕНИРЫ</h3>
+       <p class="advantage-one-extra-text">Не только китайского, но и настоящего местного производства!</p>
+     </li>
+    </ul>
+  </section>
+  <section class="advantage-two">
+    <img class="advantage-two-pic" src="" alt="Фото моста дьявола">
+    <h3 class="advantage-two-header">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+    <p class="advantage-two-text">— №2 —</p>
+    <p class="advantage-two-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+  </section>
+  <section class="other-advantages">
+    <ul class="other-advantages-list">
+     <li>
+       <h3 class="advantage-three-header">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+       <p class="advantage-three-text">— №3 —</p>
+       <p class="advantage-three-text">Все достопримечательности находятся очень близко</p>
+     </li>
+     <li>
+       <h3 class="advantage-four-header">КРАСИВАЯ ДОРОГА</h3>
+       <p class="advantage-four-text">— №4 —</p>
+       <p class="advantage-four-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+     </li>
+     <li>
+       <h3 class="advantage-five-header">МАЛО ТУРИСТОВ</h3>
+       <p class="advantage-five-text">— №5 —</p>
+       <p class="advantage-five-text">Большинство едет в Гранд Каньон и толпится там</p>
+     </li>
+    </ul>
+  </section>
+  <section class="get-interested">
+    <h3 class="get-interested-header">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+    <p class="get-interested-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <a class="search-hotels-button" href="catalog.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+  </section>
+  <section class="subscribe">
+    <h3 class="subscribe-header">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+    <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+     <label for="subscribe-email">Email</label> <!-- потом скроем (решил сделать, как в примере)-->
+     <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
+     <button class="button subscribe-button" type="submit">
+       <span class="subscribe-button-text">ПОДПИСАТЬСЯ</span>
+     </button>
+    </form>
+  </section>
+</main>
+<footer class="page-footer">
+  <section class="footer-social">
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="button" href="https://twitter.com/htmlacademy_ru">
+          <span class="visually-hidden">Twitter</span>
+        </a>  
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://www.facebook.com/htmlacademy">
+          <span class="visually-hidden">Facebook</span>
+        </a>  
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <span class="visually-hidden">Youtube</span>
+        </a>  
+      </li>
+    </ul>
+  </section>
+  <section class="footer-contact-number">
+    <a class="contact-number" href="tel:88128121212">+7 (812) 812-12-12</a>
+  </section>
+  <section class="made-in-htmlacademy">
+    <a class="button" href="https://htmlacademy.ru/">
+      <span class="visually-hidden">.htmlacademy</span>
+    </a>  
+  </section>
+</footer>
 
   </body>
 </html>
